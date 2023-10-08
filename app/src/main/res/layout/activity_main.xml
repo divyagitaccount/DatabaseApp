@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/design_default_color_on_secondary">
+
+    <ImageView
+        android:layout_width="162dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/real_time_database"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Heading"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="382dp"
+        android:layout_height="67dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/white"
+        android:hint="@string/name_hint"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:autofillHints="">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="376dp"
+        android:layout_height="77dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/white"
+        android:hint="@string/address_hint"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:autofillHints="">
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addData"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/add_data"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        >
+
+    </Button>
+</LinearLayout>

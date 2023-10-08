@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DatabaseApp</string>
+    <string name="Heading">Inserting Data</string>
+    <string name="name_hint">Type Your Name</string>
+    <string name="address_hint">Type Your email</string>
+    <string name="add_data">Add Data</string>
+    <string name="todo">TODO</string>
+</resources>
